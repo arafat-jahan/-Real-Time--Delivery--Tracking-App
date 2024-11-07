@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    tools:context=".MapsActivity">
+
+    <!-- Google Map Fragment -->
+    <fragment
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <!-- ETA and Status Display -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#AA000000"
+        android:padding="10dp"
+        android:layout_alignParentBottom="true">
+
+        <!-- Estimated Time of Arrival TextView -->
+        <TextView
+            android:id="@+id/etaTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFF"
+            android:text="Estimated Arrival Time: --:--"
+            android:textSize="16sp"
+            android:layout_marginBottom="8dp"
+            android:layout_gravity="start" />
+
+        <!-- Status TextView -->
+        <TextView
+            android:id="@+id/statusTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFF"
+            android:text="Status: Loading..."
+            android:textSize="16sp"
+            android:layout_marginBottom="16dp"
+            android:layout_gravity="start" />
+
+        <!-- Button for Manual Refresh -->
+        <Button
+            android:id="@+id/refreshButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Refresh Location"
+            android:layout_gravity="center_horizontal"
+            android:backgroundTint="#FF6200EE"
+            android:textColor="#FFFFFF"
+            android:layout_marginBottom="10dp" />
+    </LinearLayout>
+
+</RelativeLayout>

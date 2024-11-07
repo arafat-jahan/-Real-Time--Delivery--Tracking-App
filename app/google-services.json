@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "822752724214",
+    "project_id": "deliverytrackingapp-bc810",
+    "storage_bucket": "deliverytrackingapp-bc810.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:822752724214:android:eb103aa50289262f6518d7",
+        "android_client_info": {
+          "package_name": "com.example.deliverytrackingapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCESHtkD-wwWtx2OX2eMiASUtF4KZG8ynQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
